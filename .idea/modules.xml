@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/HFetcher/HFetcher.iml" filepath="$PROJECT_DIR$/HFetcher/HFetcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HFetcherProject.iml" filepath="$PROJECT_DIR$/HFetcherProject.iml" />
+    </modules>
+  </component>
+</project>
+

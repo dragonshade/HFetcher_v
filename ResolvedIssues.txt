@@ -1,0 +1,21 @@
+Log:
+
+11/19/2013:
+Issue: 
+Fail to parse text from within the tag
+
+Solution: 
+Need to move the parser a little bit more,  if(parser.next()==XmlPullParse.TEXT)
+
+
+11/20/2013:
+Issue: 
+Can only parse the first 3 entries from the xml
+
+ 
+Solution:
+Just realize that the limit of string in UTF-8 is about 65553 bytes. Converting my target xml to UTF-8 
+  gives me 360kb. Then 65553b/360kb < 20% of the file. Explains why I could only parse 3 entries from the xml.
+Instead of parsing it from a string, use  parser.setInput(inputstream, "UFT-8") instead
+	
+  
