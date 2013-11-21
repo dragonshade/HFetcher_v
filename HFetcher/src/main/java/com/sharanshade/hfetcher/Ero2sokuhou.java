@@ -32,19 +32,6 @@ public class Ero2sokuhou {
 
     private Ero2sokuhou() throws IOException {
         Ero2videos = new ArrayList<VideoEntry>();
-        //dummyList();
     }
-
-    private void dummyList() throws IOException {
-        for(int i=0;i<30;i++)
-        {
-            Ero2videos.add(i,new VideoEntry("",Integer.toString(i),"","","",null));
-        }
-
-      //  PageFetch.GrabXMLForm(url);
-        /* Test */
-        Ero2videos.add(30,new VideoEntry(null,Ero2sokuhou.xmlForm,"","","",null));
-    }
-
 
 }
