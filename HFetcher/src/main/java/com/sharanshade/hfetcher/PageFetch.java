@@ -118,8 +118,8 @@ public class PageFetch {
 
         if(matcherImg.find())   //only 1 image
         {
-            int start = matcherVid.start();
-            int end = matcherVid.end();
+            int start = matcherImg.start();
+            int end = matcherImg.end();
             img = input.substring(start,end);
         }
 
