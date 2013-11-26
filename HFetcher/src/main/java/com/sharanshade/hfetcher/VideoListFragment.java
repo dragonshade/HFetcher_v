@@ -18,6 +18,7 @@ import org.xmlpull.v1.XmlPullParserFactory;
 
 import java.io.IOException;
 import java.io.StringReader;
+import java.net.MalformedURLException;
 import java.util.ArrayList;
 
 /**
@@ -59,7 +60,11 @@ public class VideoListFragment extends ListFragment {
         {
             VideoPageFragment f = (VideoPageFragment) getFragmentManager().findFragmentById(R.id.browser);
             f.setUrl(link);
-            f.updateWebView();
+            try {
+                f.updateWebView();
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            }
         }
 
     }
