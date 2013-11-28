@@ -1,5 +1,6 @@
 package com.sharanshade.hfetcher;
 
+import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -20,6 +21,7 @@ import java.io.IOException;
 import java.io.StringReader;
 import java.net.MalformedURLException;
 import java.util.ArrayList;
+import java.util.Stack;
 
 /**
  * Created by Scarlet on 11/8/13.
@@ -47,14 +49,16 @@ public class VideoListFragment extends ListFragment {
         genericVideoEntries = Ero2sokuhou.getVideosEntry();
         VideoArrayAdapter adapter = new VideoArrayAdapter(genericVideoEntries);
         setListAdapter(adapter);
+
     }
 
     @Override
     public void onListItemClick(ListView l, View v, int position, long id)
     {
-        Log.i("OnListItemClick","Item "+position+" is clicked");
-        Log.i("OnListItemClick","URL is:"+Ero2sokuhou.getVideosEntry().get(position).getLink());
+      //  Log.i("OnListItemClick","Item "+position+" is clicked");
+      //   Log.i("OnListItemClick","URL is:"+Ero2sokuhou.getVideosEntry().get(position).getLink());
         //send url to webViewFragment
+
         String link = Ero2sokuhou.getVideosEntry().get(position).getLink();
         if(link!=null)  //if link is not null, spawn a webview and display it
         {
@@ -76,6 +80,7 @@ public class VideoListFragment extends ListFragment {
         public VideoArrayAdapter(ArrayList<VideoEntry> videoEntries)
         {
             super(getActivity(), android.R.layout.simple_list_item_1,videoEntries);
+           // getListView().setSelector(R.drawable.itemselector);  //add selector here
         }
 
         @Override
@@ -91,6 +96,7 @@ public class VideoListFragment extends ListFragment {
                 titleTextView.setText(entry.getTitle());
 
                 return convertView;
+
         }
     }
 

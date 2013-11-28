@@ -2,8 +2,10 @@
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_margin="10dp"
     android:layout_height="match_parent"
-    android:background="@android:color/background_dark">
+    android:background="@android:color/black"
+    >
 
     <TextView
         android:id="@+id/videotitle"
@@ -11,5 +13,6 @@
         android:layout_width="match_parent"
         android:textColor="#e2a2cd"
         android:textStyle="bold"
-        android:textSize="15sp"/>
+        android:textSize="17sp"
+        android:drawable="@drawable/itemselector"/>
 </LinearLayout>

@@ -26,6 +26,8 @@ public class VideoPageFragment extends Fragment{
         View v = inflater.inflate(R.layout.videopagefraglayout,container);
         videoWebView = (WebView) v.findViewById(R.id.webView);
        videoWebView.getSettings().setJavaScriptEnabled(true);
+        String defaultPage = "<html> <head><style>p{color:pink;} h1{color:pink;} body{background-color:black;}</style></head><body><h1>エロエロ速報</h1> <br> <p>ビデオが表示されない場合はすでに削除された可能性があるのでご了承してください</body></html>";
+        videoWebView.loadData(defaultPage,"text/html;charset=UTF-8",null);
         return null;
     }
 

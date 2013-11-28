@@ -4569,6 +4569,11 @@ false
                 qualifiers="mdpi"
                 type="drawable" />
             <file
+                name="h_icon"
+                path="C:\Users\Scarlet\AndroidStudioProjects\HFetcherProject\HFetcher\src\main\res\drawable-mdpi\h_icon.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
                 name="ic_launcher"
                 path="C:\Users\Scarlet\AndroidStudioProjects\HFetcherProject\HFetcher\src\main\res\drawable-mdpi\ic_launcher.png"
                 qualifiers="mdpi"
@@ -4599,6 +4604,11 @@ false
                 qualifiers=""
                 type="layout" />
             <file
+                name="videopagefraglayout"
+                path="C:\Users\Scarlet\AndroidStudioProjects\HFetcherProject\HFetcher\src\main\res\layout\videopagefraglayout.xml"
+                qualifiers=""
+                type="layout" />
+            <file
                 name="video_array_view"
                 path="C:\Users\Scarlet\AndroidStudioProjects\HFetcherProject\HFetcher\src\main\res\layout\video_array_view.xml"
                 qualifiers=""
@@ -4625,6 +4635,8 @@ false
                 </string>
                 <string name="hello_world" >Hello world!
                 </string>
+                <string name="building" >お気に入り登録やダウンロード機能はまだまだ建設中です
+                </string>
             </file>
             <file
                 path="C:\Users\Scarlet\AndroidStudioProjects\HFetcherProject\HFetcher\src\main\res\values\styles.xml"
@@ -4644,10 +4656,15 @@ false
                 </dimen>
             </file>
             <file
-                name="videopagefraglayout"
-                path="C:\Users\Scarlet\AndroidStudioProjects\HFetcherProject\HFetcher\src\main\res\layout\videopagefraglayout.xml"
-                qualifiers=""
-                type="layout" />
+                name="pressed"
+                path="C:\Users\Scarlet\AndroidStudioProjects\HFetcherProject\HFetcher\src\main\res\drawable-mdpi\pressed.xml"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="itemselector"
+                path="C:\Users\Scarlet\AndroidStudioProjects\HFetcherProject\HFetcher\src\main\res\drawable-mdpi\itemselector.xml"
+                qualifiers="mdpi"
+                type="drawable" />
         </source>
         <source path="C:\Users\Scarlet\AndroidStudioProjects\HFetcherProject\HFetcher\build\res\rs\debug" />
     </dataSet>

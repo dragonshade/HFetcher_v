@@ -239,7 +239,10 @@ int drawable abc_textfield_searchview_holo_light 0x7f020054
 int drawable abc_textfield_searchview_right_holo_dark 0x7f020055
 int drawable abc_textfield_searchview_right_holo_light 0x7f020056
 int drawable ero2sokuhoulogo 0x7f020057
-int drawable ic_launcher 0x7f020058
+int drawable h_icon 0x7f020058
+int drawable ic_launcher 0x7f020059
+int drawable itemselector 0x7f02005a
+int drawable pressed 0x7f02005b
 int id action_bar 0x7f07002b
 int id action_bar_activity_content 0x7f070025
 int id action_bar_container 0x7f07002a
@@ -253,7 +256,7 @@ int id action_menu_presenter 0x7f070027
 int id action_mode_bar 0x7f070040
 int id action_mode_bar_stub 0x7f07003f
 int id action_mode_close_button 0x7f070033
-int id action_settings 0x7f070059
+int id action_settings 0x7f07005a
 int id activity_chooser_view_content 0x7f070034
 int id alignBounds 0x7f07000b
 int id alignMargins 0x7f07000c
@@ -320,6 +323,7 @@ int id split_action_bar 0x7f07002d
 int id start 0x7f070019
 int id submit_area 0x7f070050
 int id tabMode 0x7f070002
+int id textView 0x7f070057
 int id title 0x7f07003a
 int id title_container 0x7f070041
 int id top 0x7f07000d
@@ -327,8 +331,8 @@ int id top_action_bar 0x7f07002f
 int id up 0x7f070030
 int id useLogo 0x7f070003
 int id vertical 0x7f07000a
-int id videotitle 0x7f070057
-int id webView 0x7f070058
+int id videotitle 0x7f070058
+int id webView 0x7f070059
 int id withText 0x7f070021
 int integer abc_max_action_buttons 0x7f090000
 int layout abc_action_bar_decor 0x7f030000
@@ -377,7 +381,8 @@ int string abc_shareactionprovider_share_with 0x7f0a000b
 int string abc_shareactionprovider_share_with_application 0x7f0a000c
 int string action_settings 0x7f0a000d
 int string app_name 0x7f0a000e
-int string hello_world 0x7f0a000f
+int string building 0x7f0a000f
+int string hello_world 0x7f0a0010
 int style AppTheme 0x7f0b0000
 int style TextAppearance_AppCompat_Base_CompactMenu_Dialog 0x7f0b0001
 int style TextAppearance_AppCompat_Base_SearchResult 0x7f0b0002

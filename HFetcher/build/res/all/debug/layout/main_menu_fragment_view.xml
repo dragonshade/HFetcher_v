@@ -11,14 +11,22 @@
 
     <ImageButton
         android:id="@+id/ero2sokuhou"
-        android:layout_height="100px"
-        android:layout_width="100px"
-        android:layout_marginLeft="60dp"
-        android:layout_marginTop="46dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="67dp"
         android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-       />
+        android:layout_centerHorizontal="true" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/building"
+        android:textColor="#FFFF00"
+        android:id="@+id/textView"
+        android:layout_below="@+id/ero2sokuhou"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp" />
 
 
 </RelativeLayout>

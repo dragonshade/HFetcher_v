@@ -124,14 +124,15 @@ public class PageFetch {
         }
 
         //Starting to build html page
-        String Head ="<html><body>";
-        String Tail ="</body></html>";
+        String Head ="<html><head><style>body{background-color:black;} div{margin-left:auto;margin-right:auto;padding-left:25px;}</style></head><body>";
+        String Tail ="</div></body></html>";
         String breaks="<br>";
 
         StringBuilder Page = new StringBuilder();
 
         Page.append(Head);
         Page.append(buildImg(img));
+        Page.append("<div>");
         Page.append(breaks);
         for(String vid : EmbeddedVideos)
         {
@@ -148,9 +149,21 @@ public class PageFetch {
 
     public static String buildImg(String img)
     {
-        String Head = "<Img Src=\"";
-        String Tail = "\" Border=\"0\" width=\"640\" height=\"430\">";
-        StringBuilder imgBox = new StringBuilder();
+        String Head;
+        String Tail;
+        StringBuilder imgBox;
+        if(!img.equals(""))
+        {
+        Head = "<Img Src=\"";
+        Tail = "\" Border=\"0\" width=\"640\" height=\"430\">";
+        imgBox = new StringBuilder();
+        }
+        else
+        {
+           Head = "<h1 style=\"color:pink;\"> 画像がないようです；；</h1>";
+           Tail="";
+           imgBox=new StringBuilder();
+        }
         return imgBox.append(Head).append(img).append(Tail).toString();
     }
 

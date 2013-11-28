@@ -1052,7 +1052,10 @@ containing a value of this type.
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
         public static final int ero2sokuhoulogo=0x7f020057;
-        public static final int ic_launcher=0x7f020058;
+        public static final int h_icon=0x7f020058;
+        public static final int ic_launcher=0x7f020059;
+        public static final int itemselector=0x7f02005a;
+        public static final int pressed=0x7f02005b;
     }
     public static final class id {
         public static final int action_bar=0x7f07002b;
@@ -1068,7 +1071,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f070040;
         public static final int action_mode_bar_stub=0x7f07003f;
         public static final int action_mode_close_button=0x7f070033;
-        public static final int action_settings=0x7f070059;
+        public static final int action_settings=0x7f07005a;
         public static final int activity_chooser_view_content=0x7f070034;
         public static final int alignBounds=0x7f07000b;
         public static final int alignMargins=0x7f07000c;
@@ -1135,6 +1138,7 @@ containing a value of this type.
         public static final int start=0x7f070019;
         public static final int submit_area=0x7f070050;
         public static final int tabMode=0x7f070002;
+        public static final int textView=0x7f070057;
         public static final int title=0x7f07003a;
         public static final int title_container=0x7f070041;
         public static final int top=0x7f07000d;
@@ -1142,8 +1146,8 @@ containing a value of this type.
         public static final int up=0x7f070030;
         public static final int useLogo=0x7f070003;
         public static final int vertical=0x7f07000a;
-        public static final int videotitle=0x7f070057;
-        public static final int webView=0x7f070058;
+        public static final int videotitle=0x7f070058;
+        public static final int webView=0x7f070059;
         public static final int withText=0x7f070021;
     }
     public static final class integer {
@@ -1200,7 +1204,8 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000c;
         public static final int action_settings=0x7f0a000d;
         public static final int app_name=0x7f0a000e;
-        public static final int hello_world=0x7f0a000f;
+        public static final int building=0x7f0a000f;
+        public static final int hello_world=0x7f0a0010;
     }
     public static final class style {
         /**  Customize your theme here. 
